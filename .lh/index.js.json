@@ -1,0 +1,26 @@
+{
+    "sourceFile": "index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1644336716728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644681166956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,7 @@\n import {AppRegistry} from 'react-native';\n import App from './App';\n import {name as appName} from './app.json';\n import TrackPlayer from 'react-native-track-player'\n-\n-AppRegistry.registerComponent(appName, () => App);\n+import App2 from \"./App2\"\n+AppRegistry.registerComponent(appName, () => App2);\n TrackPlayer.registerPlaybackService(() => require('./service'));\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644683088733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n  * @format\n  */\n \n import {AppRegistry} from 'react-native';\n-import App from './App';\n+\n import {name as appName} from './app.json';\n import TrackPlayer from 'react-native-track-player'\n import App2 from \"./App2\"\n AppRegistry.registerComponent(appName, () => App2);\n"
+                }
+            ],
+            "date": 1644336716728,
+            "name": "Commit-0",
+            "content": "/**\n * @format\n */\n\nimport {AppRegistry} from 'react-native';\nimport App from './App';\nimport {name as appName} from './app.json';\nimport TrackPlayer from 'react-native-track-player'\n\nAppRegistry.registerComponent(appName, () => App);\nTrackPlayer.registerPlaybackService(() => require('./service'));"
+        }
+    ]
+}

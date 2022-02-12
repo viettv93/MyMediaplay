@@ -1,0 +1,18 @@
+{
+    "sourceFile": "service.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1644336681116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1644336681116,
+            "name": "Commit-0",
+            "content": "import TrackPlayer from 'react-native-track-player'\r\n\r\nmodule.exports = async function() {\r\n\r\n    TrackPlayer.addEventListener('remote-play', () => TrackPlayer.play());\r\n\r\n    TrackPlayer.addEventListener('remote-pause', () => TrackPlayer.pause());\r\n\r\n    TrackPlayer.addEventListener('remote-stop', () => TrackPlayer.destroy());\r\n};"
+        }
+    ]
+}
